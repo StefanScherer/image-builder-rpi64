@@ -1,6 +1,5 @@
 # image-builder-rpi64
-[![CircleCI](https://circleci.com/gh/DieterReuter/image-builder-rpi64.svg?style=svg)](https://circleci.com/gh/DieterReuter/image-builder-rpi64) 
-[![Build Status](https://travis-ci.org/DieterReuter/image-builder-rpi64.svg?branch=master)](https://travis-ci.org/DieterReuter/image-builder-rpi64)
+[![CircleCI](https://circleci.com/gh/DieterReuter/image-builder-rpi64.svg?style=svg)](https://circleci.com/gh/DieterReuter/image-builder-rpi64)
 
 **Warning:** This SD image will not work on a Raspberry Pi 4B !!! 
 
@@ -79,15 +78,7 @@ Vagrant box.
 ## Deployment
 
 For maintainers of this project you can release a new version and deploy the
-SD card image to GitHub releases with
-
-```bash
-TAG=v0.0.1 make tag
-```
-
-After that open the GitHub release of this version and fill it with relevant
-changes and links to resolved issues.
-
+SD card image to GitHub releases. Just go to GitHub and switch to the Releases. From there draft a new release and enter the release description. CircleCI will kick off a release build and publish the SD card image to this release.
 
 ## License
 
